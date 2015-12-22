@@ -1,18 +1,8 @@
 # c4l-workshop-2016
-our outline and notes and workshop materials for Code4Lib 2016, the "Getting Ready for Workshops" workshop
+Our outline and notes and workshop materials for Code4Lib 2016, the "Getting Ready for Workshops" workshop
 
-## Outline
-The outline is [here](outline.md)
+Many of us go to conferences that offer code workshops, which is great! However, differences in hardware, operating system, and familiarity with things like package managers can make participation tricky. There are some great code workshops being offered at Code4Lib this year! Our goal with this workshop is to get your laptop into shape to participate more fully, and provide a space to ask questions and troubleshoot.
 
-Running a Virtual Environment in VirtualBox:
-* What is VirtualBox?
-* What can I do with it?
-* How do I get one?
-* How do I start it?
-
-Installing a Programming Language:
-* Why do I have to do this?
-* How do I find a safe version of ____ language to download?
-* I've downloaded it -- now what?
+Here's the [outline](outline.md) of what we'll cover.
 
 ## Links
