@@ -5,4 +5,11 @@ Many of us go to conferences that offer code workshops, which is great! However,
 
 Here's the [outline](outline.md) of what we'll cover.
 
+By the end of this workshop, participants will be able to:
+* Download, install, and use a text editor
+* Access and minimally navigate the command line
+* Find their environment variables and edit them if necessary
+* Download a VirtualBox and get it running
+* Download and install a programming language
+
 ## Links
