@@ -22,3 +22,17 @@
 * When should I edit them?
 * Exercise:
   * Setting Java path
+
+## Running a Virtual Environment in VirtualBox:
+ * What is VirtualBox?
+ * What can I do with it?
+ * How do I get one?
+ * How do I start it?
+ 
+## Installing a Programming Language:
+ * Why do I have to do this?
+ * How do I find a safe version of ____ language to download?
+ * I've downloaded it -- now what?
+
+## Wrap-Up:
+* You can do it! Go forth and code workshop!
