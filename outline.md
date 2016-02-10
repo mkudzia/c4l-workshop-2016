@@ -1,5 +1,6 @@
 # Outline
 This workshop is designed to help you set up your laptop so that you can more easily participate in code workshops. To this end, we’re going to cover:
+
 1. Text Editors
 2. The Command Line (the basics)
 3. Programming Languages
