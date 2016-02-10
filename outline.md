@@ -26,16 +26,16 @@ We’ll be using an fictional example throughout the workshop; for our purposes,
 * How do I get to it?
 * Exercise
 
-## Installing a Programming Language:
+## Installing a Programming Language: Python 3.5.1
 
 1. Open a web browser and go to [https://www.python.org/downloads/](https://www.python.org/downloads/)
 2. Click "Download Python 3.5.1"
 3. Save the .pkg file to someplace you'll be able to find it (i.e. Downloads, Desktop)
 
-### Mac: Installing Python 3.5
+### Mac:
 
 
-### Windows: Installing Python 3.5
+### Windows:
 
 ## Environment Variables:
 ### Mac: Adding Python 3.5 to PATH
