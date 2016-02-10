@@ -27,16 +27,17 @@ We’ll be using an fictional example throughout the workshop; for our purposes,
 * Exercise
 
 ## Installing a Programming Language:
- * Why do I have to do this?
- * How do I find a safe version of ____ language to download?
- * I've downloaded it -- now what?
+### Mac: Installing Python 3.5
+
+1. Open a web browser and go to [https://www.python.org/downloads/](https://www.python.org/downloads/)
+2. Click "Download Python 3.5.1"
+3. Save the .pkg file to someplace you'll be able to find it (i.e. Downloads, Desktop)
+4. 
+### Windows: Installing Python 3.5
 
 ## Environment Variables:
-* What are they?
-* Where are they?
-* When should I edit them?
-* Exercise:
-  * Setting Java path
+### Mac: Adding Python 3.5 to PATH
+### Windows: Adding Python 3.5 to PATH
 
 ## Running a Virtual Environment in VirtualBox:
  * What is VirtualBox?
