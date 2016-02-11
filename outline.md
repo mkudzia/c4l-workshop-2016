@@ -30,7 +30,7 @@ We’ll be using an fictional example throughout the workshop; for our purposes,
 
 1. Open a web browser and go to [https://www.python.org/downloads/](https://www.python.org/downloads/)
 2. Click "Download Python 3.5.1"
-3. Save the .pkg file to someplace you'll be able to find it (i.e. Downloads, Desktop)
+3. Save the .pkg (mac) or .exe (windows) file to someplace you'll be able to find it (i.e. Downloads, Desktop)
 
 ### Mac:
 
