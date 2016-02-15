@@ -15,5 +15,6 @@ By the end of this workshop, participants will be able to:
 * Download and install a programming language
 
 ## Links
-* [https://www.sublimetext.com](https://www.sublimetext.com)
-* [https://www.python.org/downloads/](https://www.python.org/downloads/)
+* [Slides](https://goo.gl/hpSTIg)
+* Sublime Text: [https://www.sublimetext.com](https://www.sublimetext.com)
+* Python: [https://www.python.org/downloads/](https://www.python.org/downloads/)
