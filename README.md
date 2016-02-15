@@ -4,7 +4,7 @@ Many of us go to conferences that offer code workshops, which is great! However,
 There are some great code workshops being offered at Code4Lib this year! Our goal with this workshop is to get your laptop into shape to participate more fully, and provide a space to ask questions and troubleshoot.
 
 ## Code of Conduct
-Also, to be up front: we expect participants to comply with both the [recurse rules](https://www.recurse.com/manual#sub-sec-social-rules) and the Code4Lib code of conduct [http://bit.ly/coc4lib](http://bit.ly/coc4lib)
+We expect participants to comply with both the [recurse rules](https://www.recurse.com/manual#sub-sec-social-rules) and the Code4Lib code of conduct [http://bit.ly/coc4lib](http://bit.ly/coc4lib). The local contact person for any concerns you may have during this workshop is **TODO: fill in with info from committee.
 
 ## Getting Started
 Here's the [outline](outline.md) of what we'll cover.
