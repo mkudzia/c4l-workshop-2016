@@ -7,7 +7,7 @@ This workshop is designed to help you set up your laptop so that you can more ea
 4. Environment Variables
 5. Virtual Environments
 
-We’ll be using an fictional example throughout the workshop; for our purposes, our example character will be Elizabeth Bennet (from Jane Austen’s Pride and Prejudice). Because we like Jane Austen, and her writings are off copyright :)
+**TODO: maybe remove? it seems like we don't need this?** We’ll be using an fictional example throughout the workshop; for our purposes, our example character will be Elizabeth Bennet (from Jane Austen’s Pride and Prejudice). Because we like Jane Austen, and her writings are off copyright :)
 
 ## Intro:
 * Who are you?
@@ -32,10 +32,12 @@ To start working with the command line:
 4. To move to another directory:
 	* If you just want to move up one directory, type ```cd Desktop``` and then type ```ls``` again
 	* If you want to move up several directories, type ```cd Desktop/(your folder name here)```
+	* IMPORTANT SAFETY TIP: If your directory or file name has spaces in it, Terminal will not let you navigate to or open it.
 5. If you want to re-use a command you just typed, hit the up arrow to cycle back through previously typed commands
 6. If you want to auto-complete a directory or filename, hit tab after you've typed part of the name
 7. If you want to go back to the "bottom" directory, type ```cd``` with nothing after it
 8. If you just want to go back "down" one directory, type ``` cd ..```
+
 ### Windows:
 
 ## Installing a Programming Language: Python 3.5.1
@@ -45,6 +47,7 @@ To start working with the command line:
 3. Save the .pkg (mac) or .exe (windows) file to someplace you'll be able to find it (i.e. Downloads, Desktop)
 ### Mac:
 4. **TODO: Get mac volunteer**
+5. Advanced step: installing Ruby?
 
 ### Windows:
 
@@ -53,10 +56,7 @@ To start working with the command line:
 ### Windows: Adding Python 3.5 to PATH
 
 ## Running a Virtual Environment in VirtualBox:
- * What is VirtualBox?
- * What can I do with it?
- * How do I get one?
- * How do I start it?
+**TODO Megan for serious get cracking**
 
 ## Wrap-Up:
 * You can do it! Go forth and code workshop!
