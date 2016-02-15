@@ -45,6 +45,7 @@ To start working with the command line:
 1. Open a web browser and go to [https://www.python.org/downloads/](https://www.python.org/downloads/)
 2. Click "Download Python 3.5.1"
 3. Save the .pkg (mac) or .exe (windows) file to someplace you'll be able to find it (i.e. Downloads, Desktop)
+
 ### Mac:
 4. **TODO: Get mac volunteer**
 5. Advanced step: installing Ruby?
