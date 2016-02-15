@@ -21,11 +21,10 @@ Installing Sublime Text (as opposed to TextEdit or Notepad):
 2. You should be able to scroll down to find a blue button that's labeled "Download for (your operating system)"
 3. If you don't see a button, click the "Download" link at the top of the page
 4. If you're on a Mac, choose the "OS X" link; if you're on a Windows machine, choose the relevant windows link.
-	* If you're not sure whether you need the 64-bit version,
+	* If you're not sure whether you need the 64-bit version, **TODO: Robin help**
 
 ## The Command Line:
 To start working with the command line:
-
 ### Mac:
 1. Use Launchpad, or open a Finder window and choose "Applications," then locate the program called "Terminal" (you should find it under "Utilities")
 2. To find out what directory you're in, type ```pwd```
@@ -37,15 +36,15 @@ To start working with the command line:
 6. If you want to auto-complete a directory or filename, hit tab after you've typed part of the name
 7. If you want to go back to the "bottom" directory, type ```cd``` with nothing after it
 8. If you just want to go back "down" one directory, type ``` cd ..```
+### Windows:
 
 ## Installing a Programming Language: Python 3.5.1
 
 1. Open a web browser and go to [https://www.python.org/downloads/](https://www.python.org/downloads/)
 2. Click "Download Python 3.5.1"
 3. Save the .pkg (mac) or .exe (windows) file to someplace you'll be able to find it (i.e. Downloads, Desktop)
-
 ### Mac:
-
+4. **TODO: Get mac volunteer**
 
 ### Windows:
 
