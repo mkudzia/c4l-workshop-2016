@@ -15,16 +15,28 @@ We’ll be using an fictional example throughout the workshop; for our purposes,
 * What are we all doing here?
 
 ## Text Editors:
-* What are they for?
-* What are some options?
-* How do I get one?
-* Exercise
+Installing Sublime Text (as opposed to TextEdit or Notepad):
+
+1. Open a web browser and go to [https://www.sublimetext.com](https://www.sublimetext.com)
+2. You should be able to scroll down to find a blue button that's labeled "Download for (your operating system)"
+3. If you don't see a button, click the "Download" link at the top of the page
+4. If you're on a Mac, choose the "OS X" link; if you're on a Windows machine, choose the relevant windows link.
+	* If you're not sure whether you need the 64-bit version,
 
 ## The Command Line:
-* What is it?
-* What is it for?
-* How do I get to it?
-* Exercise
+To start working with the command line:
+
+### Mac:
+1. Use Launchpad, or open a Finder window and choose "Applications," then locate the program called "Terminal" (you should find it under "Utilities")
+2. To find out what directory you're in, type ```pwd```
+3. To find out what's _in_ that directory (i.e. where you can go from here), type ```ls``` (for "list")
+4. To move to another directory:
+	* If you just want to move up one directory, type ```cd Desktop``` and then type ```ls``` again
+	* If you want to move up several directories, type ```cd Desktop/(your folder name here)```
+5. If you want to re-use a command you just typed, hit the up arrow to cycle back through previously typed commands
+6. If you want to auto-complete a directory or filename, hit tab after you've typed part of the name
+7. If you want to go back to the "bottom" directory, type ```cd``` with nothing after it
+8. If you just want to go back "down" one directory, type ``` cd ..```
 
 ## Installing a Programming Language: Python 3.5.1
 
