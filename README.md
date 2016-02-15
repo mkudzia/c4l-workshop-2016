@@ -4,14 +4,24 @@ Many of us go to conferences that offer code workshops, which is great! However,
 There are some great code workshops being offered at Code4Lib this year! Our goal with this workshop is to get your laptop into shape to participate more fully, and provide a space to ask questions and troubleshoot.
 
 ## Code of Conduct
-We expect participants to comply with the Code4Lib code of conduct [http://bit.ly/coc4lib](http://bit.ly/coc4lib). The local contact person for any concerns you may have during this workshop is **TODO: fill in with info from committee.
 
-We find the following suggestions useful when we're trying to learn, so we're committed to trying them here. In a learning evironment, things which are not helpful include:
-* Feigning surprise: "Wait, you didn't know that _____ ?!" is usually not a helpful reaction; please don't do this.
-* Well, actually: If you feel that someone (including one of us) has missed something important in our explanation of something, please do mention it. However, we prefer more of a "yes, and" approach -- in practice, sentences that start with "well, actually" tend to be more about making the person speaking feel smart, than about advancing everyone's understanding.
-* Back-seat driving: There is a difference between hearing that someone is struggling and going over to try and help, and listening with half an ear and lobbing advice intermittently across the room. We love for people to work together and help each other out, but please engage meaningfully when you do so.
+Participants and instructors in this workshop are expected to follow the [Code4Lib 2016 code of conduct](http://2016.code4lib.org/conduct.html). The local contact person for any concerns you may have during this workshop is **TODO: fill in with info from committee**.
 
-These suggestions were inspired by what used to be the Hacker School rules (now called the Recurse Center rules) -- more info [here](https://www.recurse.com/manual#sub-sec-social-rules).
+Additionally, we will try to provide a good atmosphere for learning by implementing the following social rules, which were inspired by the [Recurse Center social rules](https://www.recurse.com/manual#sub-sec-social-rules).
+
+1. Support everyone's learning process.
+  * Please ask questions if you don't understand something. 
+  * Don't "feign surprise" that someone isn't familiar with a certain concept or term.
+
+2. Offer help constructively.
+  * Collaborating with other workshop participants to solve problems is encouraged.
+  * Respect that others may not want your assistance at the moment.
+  * Don't instruct people to "just" do X--this implies that X is simple, when it probably isn't!
+  * Don't correct people with "well, actually"--this invalidates what they just said. 
+
+3. Be respectful.
+  * Follow the Code4Lib code of conduct.
+  * Avoid stereotypes and biased language.
 
 ## Getting Started
 Here's the [outline](outline.md) of what we'll cover.
