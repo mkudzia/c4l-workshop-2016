@@ -48,16 +48,23 @@ To start working with the command line:
 
 ### Mac:
 4. **TODO: Get mac volunteer**
-5. Advanced step: installing Ruby?
+5. Advanced step: installing JDK?
 
 ### Windows:
+4. **TODO: Robin what are these steps?**
+5. Advanced step: installing Ruby or JDK?
 
 ## Environment Variables:
 ### Mac: Adding Python 3.5 to PATH
 ### Windows: Adding Python 3.5 to PATH
+
+### Mac bonus: Adding JDK to PATH
+### Windows bonus: Adding Sublime text to PATH
 
 ## Running a Virtual Environment in VirtualBox:
 **TODO Megan for serious get cracking**
 
 ## Wrap-Up:
 * You can do it! Go forth and code workshop!
+
+/var/lib/tomcat7/webapps/fedoragsearch/WEB-INF/classes/fgsconfigGinal/index/FgsIndex
