@@ -24,7 +24,7 @@ Installing Sublime Text (as opposed to TextEdit or Notepad):
 	* If you're not sure whether you need the 64-bit version, **TODO: Robin help**
 
 ## The Command Line:
-To start working with the command line:
+To start working with the command line: **TODO: update based on Robin's sample directories**
 ### Mac:
 1. Use Launchpad, or open a Finder window and choose "Applications," then locate the program called "Terminal" (you should find it under "Utilities")
 2. To find out what directory you're in, type ```pwd```
@@ -37,6 +37,8 @@ To start working with the command line:
 6. If you want to auto-complete a directory or filename, hit tab after you've typed part of the name
 7. If you want to go back to the "bottom" directory, type ```cd``` with nothing after it
 8. If you just want to go back "down" one directory, type ``` cd ..```
+9. To make a new directory, type ```mkdir (directoryname)```
+10. To move a file into the directory, move down one directory using ```cd ..``` and then type ```cp copy_file directoryname/copy_file```
 
 ### Windows:
 
@@ -48,7 +50,7 @@ To start working with the command line:
 
 ### Mac:
 4. **TODO: Get mac volunteer**
-5. Advanced step: installing JDK?
+5. Advanced step: installing Blacklight? Angular?
 
 ### Windows:
 4. **TODO: Robin what are these steps?**
@@ -63,6 +65,7 @@ To start working with the command line:
 
 ## Running a Virtual Environment in VirtualBox:
 **TODO Megan for serious get cracking**
+Catmandu stuff?
 
 ## Wrap-Up:
 * You can do it! Go forth and code workshop!
