@@ -31,14 +31,14 @@ To start working with the command line: **TODO: update based on Robin's sample d
 3. To find out what's _in_ that directory (i.e. where you can go from here), type ```ls``` (for "list")
 4. To move to another directory:
 	* If you just want to move up one directory, type ```cd Desktop``` and then type ```ls``` again
-	* If you want to move up several directories, type ```cd Desktop/(your folder name here)```
+	* If you want to move up several directories, type ```cd Desktop/your_folder_name```
 	* IMPORTANT SAFETY TIP: If your directory or file name has spaces in it, Terminal will not let you navigate to or open it.
 5. If you want to re-use a command you just typed, hit the up arrow to cycle back through previously typed commands
 6. If you want to auto-complete a directory or filename, hit tab after you've typed part of the name
 7. If you want to go back to the "bottom" directory, type ```cd``` with nothing after it
 8. If you just want to go back "down" one directory, type ``` cd ..```
-9. To make a new directory, type ```mkdir (directoryname)```
-10. To move a file into the directory, move down one directory using ```cd ..``` and then type ```cp copy_file directoryname/copy_file```
+9. To make a new directory, type ```mkdir directory_name```
+10. To move a file into the directory, move down one directory using ```cd ..``` and then type ```cp copy_file directory_name/copy_file```
 11. To read the contents of a file without editing it, type ```cat filename```
 12. To edit a file:
 	* Type ```nano filename```
