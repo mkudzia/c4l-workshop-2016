@@ -39,6 +39,11 @@ To start working with the command line: **TODO: update based on Robin's sample d
 8. If you just want to go back "down" one directory, type ``` cd ..```
 9. To make a new directory, type ```mkdir (directoryname)```
 10. To move a file into the directory, move down one directory using ```cd ..``` and then type ```cp copy_file directoryname/copy_file```
+11. To read the contents of a file without editing it, type ```cat filename```
+12. To edit a file:
+	* Type ```nano filename```
+	* Use the arrow keys to navigate the file; make changes **TODO: text files from Robin**
+	* To save and exit, type "ctrl + x" and then hit "enter"
 
 ### Windows:
 
