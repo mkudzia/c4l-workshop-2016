@@ -63,9 +63,27 @@ To start working with the command line: **TODO: update based on Robin's sample d
 
 ## Environment Variables:
 ### Mac: Adding Python 3.5 to PATH
+1. 
 ### Windows: Adding Python 3.5 to PATH
 
 ### Mac bonus: Adding JDK to PATH
+1. Open a Terminal window (if you want to open a new one, you can click on it in your dock and hold until a menu pops up, then choose "New Window")
+2. Type ```echo $JAVA_HOME``` to find out where the "home" directory of your JDK version is. It will probably look something like:
+
+```
+/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home
+```
+3. Copy and paste that line of text into a text editor, or write it down
+4. Type ```cat ~/.bash_profile``` to see if you already have a bash profile set up. 
+	* If you do, you should see what's in it
+	* If you don't, that's ok! Type ```touch ~/.bash_profile``` to create one, then type ```nano ~/.bash_profile``` to edit it
+5. To add that location to your PATH, type this into your bash profile:
+
+```
+export JAVA_HOME="$(/usr/libexec/java_home -v 1.8)"
+```
+NOTE: the number after the -v should match the number after jdk that you copied and pasted from the previous command
+
 ### Windows bonus: Adding Sublime text to PATH
 
 ## Running a Virtual Environment in VirtualBox:
