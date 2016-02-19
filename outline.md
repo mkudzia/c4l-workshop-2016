@@ -38,7 +38,10 @@ To start working with the command line: **TODO: update based on Robin's sample d
 7. If you want to go back to the "bottom" directory, type ```cd``` with nothing after it
 8. If you just want to go back "down" one directory, type ``` cd ..```
 9. To make a new directory, type ```mkdir directory_name```
-10. To move a file into the directory, move down one directory using ```cd ..``` and then type ```cp copy_file directory_name/copy_file```
+10. To move a file into the directory, move down one directory using ```cd ..``` and then type:
+```
+cp copy_file directory_name/copy_file
+```
 11. To read the contents of a file without editing it, type ```cat filename```
 12. To edit a file:
 	* Type ```nano filename```
@@ -84,9 +87,9 @@ NOTE: the number after the -v should match the number after jdk that you copied 
 2. Assuming you have a .bash_profile from the last step, type ```sudo nano ~/.bash_profile``` 
 3. You may see something like: "export JAVA_HOME=$(/usr/libexec/java_home)" -- if so:
 	* Copy what you find
-	* Exit (type ```ctrl-x``` and then hit enter)
+	* Exit (type "ctrl-x" and then hit enter)
 	* Type ```touch .bash_profile.pysave``` and then paste the copied message from your original bash profile 
-	* Exit the pysave bash profile (type ```ctrl-x``` and then hit enter)
+	* Exit the pysave bash profile (type "ctrl-x" and then hit enter)
 4. Go back to .bash_profile (```sudo nano ~/.bash_profile```) and add the following text:
 ```
 # Setting PATH for Python 3.5
@@ -94,7 +97,7 @@ NOTE: the number after the -v should match the number after jdk that you copied 
 PATH="/Library/Frameworks/Python.framework/Versions/3.5/bin:${PATH}"
 export PATH
 ```
-5. Exit using ```ctrl-x```
+5. Exit using "ctrl-x"
 6. That's it!
 
 ### Windows: Updating your PATH to include Python 3.5
