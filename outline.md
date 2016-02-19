@@ -108,7 +108,9 @@ Catmandu stuff?
 
 ### Windows take two
 1. Download Vagrant for Windows [https://www.vagrantup.com/docs/installation](https://www.vagrantup.com/docs/installation)
-2.
+2. Accept the defaults in the install wizard
+3. Restart your machine (sorry!)
+4. Navigate to the location of the vagrant file you want (https://github.com/Islandora-CLAW/CLAW, or catmandu, or whatever) and use git clone (?) to install it
 
 ## Wrap-Up:
 * You can do it! Go forth and code workshop!
