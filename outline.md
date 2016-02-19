@@ -132,5 +132,3 @@ Catmandu stuff?
 
 ## Wrap-Up:
 * You can do it! Go forth and code workshop!
-
-/var/lib/tomcat7/webapps/fedoragsearch/WEB-INF/classes/fgsconfigGinal/index/FgsIndex
