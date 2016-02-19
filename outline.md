@@ -76,7 +76,7 @@ To start working with the command line: **TODO: update based on Robin's sample d
 3. Copy and paste that line of text into a text editor, or write it down
 4. Type ```cat ~/.bash_profile``` to see if you already have a bash profile set up. 
 	* If you do, you should see what's in it
-	* If you don't, that's ok! Type ```touch ~/.bash_profile``` to create one, then type ```nano ~/.bash_profile``` to edit it
+	* If you don't, that's ok! Type ```touch ~/.bash_profile``` to create one, then type ```nano ~/.bash_profile``` to edit it **TODO: Megan, does this need to be sudo?**
 5. To add that location to your PATH, type this into your bash profile:
 
 ```
@@ -89,6 +89,26 @@ NOTE: the number after the -v should match the number after jdk that you copied 
 ## Running a Virtual Environment in VirtualBox:
 **TODO Megan for serious get cracking**
 Catmandu stuff?
+
+### Windows
+1. Install VirtualBox **TODO: Robin flesh out**
+2. Create new Virtual Machine
+	* Name: Something that makes sense
+	* Type: Linux
+	* Version: Ubuntu 64-bit
+	* Next
+3. Add 4 gigs of Memory (or more if you know you need it, but watch how much memory is on your laptop)
+4. Create virtual hard disk
+5. Choose "VDI" option (should be default)
+6. Choose "Fixed size" and then check your machine to see how much free space you have, then give it smallish gigs (maybe 20?)
+7. Click "Create"
+8. While you wait for it to finish, download 64-bit Ubuntu (or get your friendly local sysadmins/workshop organizers to give you a disk image [ISO])
+8. Once it finishes, power it on by clicking "Start"
+9. Choose the ISO for Ubuntu that you just downloaded.
+
+### Windows take two
+1. Download Vagrant for Windows [https://www.vagrantup.com/docs/installation](https://www.vagrantup.com/docs/installation)
+2.
 
 ## Wrap-Up:
 * You can do it! Go forth and code workshop!
