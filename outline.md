@@ -100,10 +100,9 @@ export PATH
 5. Exit using "ctrl-x"
 6. That's it!
 
-### Windows: Updating your PATH to include Python 3.5
+### Windows: Adding Sublime text to PATH
 
-
-### Windows bonus: Adding Sublime text to PATH
+### Windows bonus: Updating your PATH to include Python 3.5
 
 ## Running a Virtual Environment in VirtualBox:
 **TODO Megan for serious get cracking**
