@@ -28,7 +28,7 @@ This workshop is designed to help you set up your laptop so that you can more ea
 ### Install Sublime Text (as opposed to TextEdit or Notepad):
 
 1. Open a web browser and go to [https://www.sublimetext.com](https://www.sublimetext.com)
-2. Scroll down the button that says "Download for (your operating system)". Make sure you're installing version 3 of Sublime Text. If you don't see a button, click the "Download" link at the top of the page.
+2. Scroll down to the button that says "Download for (your operating system)". Make sure you're installing version 3 of Sublime Text. If you don't see a button, click the "Download" link at the top of the page.
 
 * Windows 7
 
@@ -38,9 +38,13 @@ This workshop is designed to help you set up your laptop so that you can more ea
 4. Complete installation using the install wizard.
 5. To open, go to Start > All Programs > Sublime Text 3.
 
-### Open a few files in your text editor
+### Open a Markdown (.md) file in your text editor
 
-1. Go to the workshop GitHub repository at [https://github.com/mkudzia/c4l-workshop-2016](https://github.com/mkudzia/c4l-workshop-2016)
+1. Go to the workshop GitHub repository at [https://github.com/mkudzia/c4l-workshop-2016](https://github.com/mkudzia/c4l-workshop-2016). (Files will be available on a flash drive in case there are problems with the Internet connection at the workshop.)
+2. Click "Download ZIP" to download the files. 
+3. Unzip the files to a folder on your desktop or another location that's easy for you to find and type. We'll refer to this folder as the "workshop files directory."
+4. In the workshop files directory, right click on "outline.md" and select "Open with Sublime Text."
+
 
 ## The Command Line:
 To start working with the command line: **TODO: update based on Robin's sample directories**
