@@ -18,10 +18,10 @@ This workshop is designed to help you set up your laptop so that you can more ea
 
 1. Is my operating system 32-bit or 64-bit? 
 
-* Windows 7
+* Windows 7:
 	1. Open System by clicking the Start button, right-clicking "Computer," and then clicking "Properties"
 	2. The Properties sceen will show "System type: 64-bit operating system" or "32-bit operating system."
-* Mac OS
+* Mac OS (this should be less relevant for Mac users, but just in case):
 	1. Click on the Apple logo in the top menu and open "About this Mac"
 	2. Click "System Report" or "More Info"
 	3. In the "Hardware Overview" section you should see a processor listed -- unless you have an Intel Core Solo or an Intel Core Duo, you have a 64-bit OS.
@@ -40,6 +40,13 @@ This workshop is designed to help you set up your laptop so that you can more ea
 3. When you get to the screen "Select Destination Location" make a note of where Sublime Text 3 is being installed (e.g., ```C:\Program Files\Sublime Text 3```)
 4. Complete installation using the install wizard.
 5. To open, go to Start > All Programs > Sublime Text 3.
+
+* Mac OS
+
+1. Click to download the Sublime Text .dmg file
+2. Double-click on the .dmg file to start installation
+3. When the Sublime Text window opens, drag the Sublime Text logo into the Applications folder
+4. After closing the window and ejecting the disk image from your desktop, go to your Applications folder and open Sublime Text 3
 
 ### Open a Markdown (.md) file in your text editor
 
