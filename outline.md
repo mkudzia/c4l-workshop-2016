@@ -22,6 +22,9 @@ This workshop is designed to help you set up your laptop so that you can more ea
 	1. Open System by clicking the Start button, right-clicking "Computer," and then clicking "Properties"
 	2. The Properties sceen will show "System type: 64-bit operating system" or "32-bit operating system."
 * Mac OS
+	1. Click on the Apple logo in the top menu and open "About this Mac"
+	2. Click "System Report" or "More Info"
+	3. In the "Hardware Overview" section you should see a processor listed -- unless you have an Intel Core Solo or an Intel Core Duo, you have a 64-bit OS.
 	
 ## Text Editors:
 
