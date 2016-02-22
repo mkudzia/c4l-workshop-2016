@@ -21,7 +21,9 @@ Installing Sublime Text (as opposed to TextEdit or Notepad):
 2. You should be able to scroll down to find a blue button that's labeled "Download for (your operating system)"
 3. If you don't see a button, click the "Download" link at the top of the page
 4. If you're on a Mac, choose the "OS X" link; if you're on a Windows machine, choose the relevant windows link.
-	* If you're not sure whether you need the 64-bit version, **TODO: Robin help**
+	* If you're not sure whether you need the 64-bit version, here's how you find out:
+	1. Open System by clicking the Start button, right-clicking "Computer," and then clicking "Properties"
+	2. Under System, you can view the system type
 
 ## The Command Line:
 To start working with the command line: **TODO: update based on Robin's sample directories**
