@@ -62,7 +62,7 @@ cp copy_file directory_name/copy_file
 
 ### Windows:
 4. **TODO: Robin what are these steps?**
-5. Advanced step: installing Ruby or JDK?
+5. Advanced step: installing Ruby or JDK? **TODO: What about installing Git, nano, or pip?**
 
 ## Environment Variables:
 ### Mac: Adding JDK to PATH
@@ -105,30 +105,21 @@ export PATH
 ### Windows bonus: Updating your PATH to include Python 3.5
 
 ## Running a Virtual Environment in VirtualBox:
-**TODO Megan for serious get cracking**
-Catmandu stuff?
+### Mac
+1. Install VirtualBox -- see the following link: [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
+2. Choose the option for "VirtualBox 5.0.14 for OS X hosts" and click the link that says "amd64" to download
+3. Save the .dmg file somewhere you'll be able to find it again (Desktop, Downloads, etc.)
+4. Double-click the file when it's finished downloading to start the install process
+5. In the pop-up window, follow the instructions and double-click on the .pkg icon
+6. Follow the install wizard steps and input your password when it asks for one
+7. Close the installer window and eject the "VirtualBox" drive image you see on your desktop (you want to run the version you installed in your "Applications" folder just now)
 
 ### Windows
-1. Install VirtualBox **TODO: Robin flesh out**
-2. Create new Virtual Machine
-	* Name: Something that makes sense
-	* Type: Linux
-	* Version: Ubuntu 64-bit
-	* Next
-3. Add 4 gigs of Memory (or more if you know you need it, but watch how much memory is on your laptop)
-4. Create virtual hard disk
-5. Choose "VDI" option (should be default)
-6. Choose "Fixed size" and then check your machine to see how much free space you have, then give it smallish gigs (maybe 20?)
-7. Click "Create"
-8. While you wait for it to finish, download 64-bit Ubuntu (or get your friendly local sysadmins/workshop organizers to give you a disk image [ISO])
-8. Once it finishes, power it on by clicking "Start"
-9. Choose the ISO for Ubuntu that you just downloaded.
-
-### Windows take two
-1. Download Vagrant for Windows [https://www.vagrantup.com/docs/installation](https://www.vagrantup.com/docs/installation)
-2. Accept the defaults in the install wizard
-3. Restart your machine (sorry!)
-4. Navigate to the location of the vagrant file you want (https://github.com/Islandora-CLAW/CLAW, or catmandu, or whatever) and use git clone (?) to install it
+1. Install VirtualBox -- see the following link: [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
+2. Choose the option for "VirtualBox 5.0.14 for Windows hosts" and click the link that says "x86/amd64" to download
+3. Save the .exe file somewhere you'll be able to find it again (Desktop, Downloads, etc.)
+4. Double-click the file when it's finished downloading to start the install process
+5. **TODO: Robin flesh out**
 
 ## Wrap-Up:
 * You can do it! Go forth and code workshop!
