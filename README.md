@@ -29,11 +29,15 @@ Here's the [outline](outline.md) of what we'll cover.
 By the end of this workshop, participants will be able to:
 * Download, install, and use a text editor
 * Access and minimally navigate the command line
+* Download and install a programming language
 * Find their environment variables and edit them if necessary
 * Download a VirtualBox and get it running
-* Download and install a programming language
+
 
 ## Links
+Please note: you need not install anything before the workshop! However, if you'd like to download installers beforehand, this may speed the workshop process and ease the strain on the wi-fi.
+We will have all the relevant installers and files on flash drives that we can also pass around in case of wi-fi troubles.
 * [Slides](https://goo.gl/hpSTIg)
 * Sublime Text: [https://www.sublimetext.com](https://www.sublimetext.com)
 * Python: [https://www.python.org/downloads/](https://www.python.org/downloads/)
+* VirtualBox: [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
