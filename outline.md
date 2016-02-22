@@ -14,16 +14,33 @@ This workshop is designed to help you set up your laptop so that you can more ea
 * Who are we?
 * What are we all doing here?
 
+## Pre-installation checks
+
+1. Is my operating system 32-bit or 64-bit? 
+
+* Windows 7
+	1. Open System by clicking the Start button, right-clicking "Computer," and then clicking "Properties"
+	2. The Properties sceen will show "System type: 64-bit operating system" or "32-bit operating system."
+* Mac OS
+	
 ## Text Editors:
-Installing Sublime Text (as opposed to TextEdit or Notepad):
+
+### Install Sublime Text (as opposed to TextEdit or Notepad):
 
 1. Open a web browser and go to [https://www.sublimetext.com](https://www.sublimetext.com)
-2. You should be able to scroll down to find a blue button that's labeled "Download for (your operating system)"
-3. If you don't see a button, click the "Download" link at the top of the page
-4. If you're on a Mac, choose the "OS X" link; if you're on a Windows machine, choose the relevant windows link.
-	* If you're not sure whether you need the 64-bit version, here's how you find out:
-	1. Open System by clicking the Start button, right-clicking "Computer," and then clicking "Properties"
-	2. Under System, you can view the system type
+2. Scroll down the button that says "Download for (your operating system)". Make sure you're installing version 3 of Sublime Text. If you don't see a button, click the "Download" link at the top of the page.
+
+* Windows 7
+
+1. Click "Save file" to download the Sublime Text .exe file.
+2. Double-click on the .exe file to run it and begin the installation process.
+3. When you get to the screen "Select Destination Location" make a note of where Sublime Text 3 is being installed (e.g., ```C:\Program Files\Sublime Text 3```)
+4. Complete installation using the install wizard.
+5. To open, go to Start > All Programs > Sublime Text 3.
+
+### Open a few files in your text editor
+
+1. Go to the workshop GitHub repository at [https://github.com/mkudzia/c4l-workshop-2016](https://github.com/mkudzia/c4l-workshop-2016)
 
 ## The Command Line:
 To start working with the command line: **TODO: update based on Robin's sample directories**
