@@ -90,15 +90,17 @@ cp copy_file directory_name/copy_file
 3. Save the .pkg (mac) or .exe (windows) file to someplace you'll be able to find it (i.e. Downloads, Desktop)
 
 ### Mac:
-4. **TODO: Get mac volunteer**
-5. Advanced step: installing Blacklight? Angular?
+4. 
+5. Verify that you've installed python: open the command line and type ```python --version```
+5. Advanced step: installing pip?
 
 ### Windows:
 4. **TODO: Robin what are these steps?**
+5. Verify that you've installed python: open the command line and type ```python --version```
 5. Advanced step: installing Ruby or JDK? **TODO: What about installing Git, nano, or pip?**
 
 ## Environment Variables:
-### Mac: Adding JDK to PATH
+### Mac: Adding JDK to PATH **TODO: Megan change? Amend instructions so that JDK stuff is optional (because they may not have it), and have them just update their path for Python3***
 1. Open a Terminal window (if you want to open a new one, you can click on it in your dock and hold until a menu pops up, then choose "New Window")
 2. Type ```echo $JAVA_HOME``` to find out where the "home" directory of your JDK version is. It will probably look something like:
 
