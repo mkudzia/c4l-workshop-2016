@@ -7,7 +7,7 @@ This workshop is designed to help you set up your laptop so that you can more ea
 4. Environment Variables
 5. Virtual Environments
 
-**TODO: maybe remove? it seems like we don't need this?** We’ll be using an fictional example throughout the workshop; for our purposes, our example character will be Elizabeth Bennet (from Jane Austen’s Pride and Prejudice). Because we like Jane Austen, and her writings are off copyright :)
+We’ll be using an fictional example throughout the workshop; for our purposes, our example character will be Elizabeth Bennet (from Jane Austen’s Pride and Prejudice). Because we like Jane Austen, and her writings are off copyright :)
 
 ## Intro:
 * Who are you?
@@ -17,14 +17,15 @@ This workshop is designed to help you set up your laptop so that you can more ea
 ## Pre-installation checks
 
 1. Is my operating system 32-bit or 64-bit? 
-
-* Windows 7:
+### Windows 7:
 	1. Open System by clicking the Start button, right-clicking "Computer," and then clicking "Properties"
 	2. The Properties sceen will show "System type: 64-bit operating system" or "32-bit operating system."
-* Mac OS (this should be less relevant for Mac users, but just in case):
+### Mac OS (this should be less relevant for Mac users, but just in case):
 	1. Click on the Apple logo in the top menu and open "About this Mac"
 	2. Click "System Report" or "More Info"
 	3. In the "Hardware Overview" section you should see a processor listed -- unless you have an Intel Core Solo or an Intel Core Duo, you have a 64-bit OS.
+
+**TODO: Megan make sure Mac instructions come first for each section, then Windows**
 	
 ## Text Editors:
 
@@ -33,7 +34,14 @@ This workshop is designed to help you set up your laptop so that you can more ea
 1. Open a web browser and go to [https://www.sublimetext.com](https://www.sublimetext.com)
 2. Scroll down to the button that says "Download for (your operating system)". Make sure you're installing version 3 of Sublime Text. If you don't see a button, click the "Download" link at the top of the page.
 
-* Windows 7
+#### Mac OS
+
+1. Click to download the Sublime Text .dmg file
+2. Double-click on the .dmg file to start installation
+3. When the Sublime Text window opens, drag the Sublime Text logo into the Applications folder
+4. After closing the window and ejecting the disk image from your desktop, go to your Applications folder and open Sublime Text 3
+
+#### Windows 7
 
 1. Click "Save file" to download the Sublime Text .exe file.
 2. Double-click on the .exe file to run it and begin the installation process.
@@ -41,14 +49,7 @@ This workshop is designed to help you set up your laptop so that you can more ea
 4. Complete installation using the install wizard.
 5. To open, go to Start > All Programs > Sublime Text 3.
 
-* Mac OS
-
-1. Click to download the Sublime Text .dmg file
-2. Double-click on the .dmg file to start installation
-3. When the Sublime Text window opens, drag the Sublime Text logo into the Applications folder
-4. After closing the window and ejecting the disk image from your desktop, go to your Applications folder and open Sublime Text 3
-
-### Open a Markdown (.md) file in your text editor
+### Everybody: Open a Markdown (.md) file in your text editor
 
 1. Go to the workshop GitHub repository at [https://github.com/mkudzia/c4l-workshop-2016](https://github.com/mkudzia/c4l-workshop-2016). (Files will be available on a flash drive in case there are problems with the Internet connection at the workshop.)
 2. Click "Download ZIP" to download the files. 
@@ -84,7 +85,7 @@ cp copy_file directory_name/copy_file
 ### Windows:
 
 ## Installing a Programming Language: Python 3.5.1
-
+### Everbody:
 1. Open a web browser and go to [https://www.python.org/downloads/](https://www.python.org/downloads/)
 2. Click "Download Python 3.5.1"
 3. Save the .pkg (mac) or .exe (windows) file to someplace you'll be able to find it (i.e. Downloads, Desktop)
