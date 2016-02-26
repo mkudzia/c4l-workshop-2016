@@ -14,6 +14,12 @@ We’ll be using an fictional example throughout the workshop; for our purposes,
 * Who are we?
 * What are we all doing here?
 
+## Getting the workshop files on your computer
+
+1. Go to the workshop GitHub repository at [https://github.com/mkudzia/c4l-workshop-2016](https://github.com/mkudzia/c4l-workshop-2016). (Files will be available on a flash drive in case there are problems with the Internet connection at the workshop.)
+2. Click "Download ZIP" to download the files. 
+3. Unzip the files to a folder on your desktop or another location that's easy for you to find and type. You can rename the folder or keep it named "c4l-workshop-2016".
+
 ## Pre-installation checks
 
 1. Is my operating system 32-bit or 64-bit? 
@@ -24,8 +30,6 @@ We’ll be using an fictional example throughout the workshop; for our purposes,
 	1. Click on the Apple logo in the top menu and open "About this Mac"
 	2. Click "System Report" or "More Info"
 	3. In the "Hardware Overview" section you should see a processor listed -- unless you have an Intel Core Solo or an Intel Core Duo, you have a 64-bit OS.
-
-**TODO: Megan make sure Mac instructions come first for each section, then Windows**
 	
 ## Text Editors:
 
@@ -51,38 +55,115 @@ We’ll be using an fictional example throughout the workshop; for our purposes,
 
 ### Everybody: Open a Markdown (.md) file in your text editor
 
-1. Go to the workshop GitHub repository at [https://github.com/mkudzia/c4l-workshop-2016](https://github.com/mkudzia/c4l-workshop-2016). (Files will be available on a flash drive in case there are problems with the Internet connection at the workshop.)
-2. Click "Download ZIP" to download the files. 
-3. Unzip the files to a folder on your desktop or another location that's easy for you to find and type. We'll refer to this folder as the "workshop files directory."
-4. In the workshop files directory, right click on "outline.md" and select "Open with Sublime Text."
+Mac:
+
+Windows:
+1. In the ```c4l-workshop-2016``` workshop files directory, right click on "outline.md" and select "Open with Sublime Text."
 
 
-## The Command Line:
-To start working with the command line: **TODO: update based on Robin's sample directories**
-### Mac:
-1. Use Launchpad, or open a Finder window and choose "Applications," then locate the program called "Terminal" (you should find it under "Utilities")
-2. To find out what directory you're in, type ```pwd```
-3. To find out what's _in_ that directory (i.e. where you can go from here), type ```ls``` (for "list")
-4. To move to another directory:
-	* If you just want to move up one directory, type ```cd Desktop``` and then type ```ls``` again
-	* If you want to move up several directories, type ```cd Desktop/your_folder_name```
-	* IMPORTANT SAFETY TIP: If your directory or file name has spaces in it, Terminal will not let you navigate to or open it.
-5. If you want to re-use a command you just typed, hit the up arrow to cycle back through previously typed commands
-6. If you want to auto-complete a directory or filename, hit tab after you've typed part of the name
-7. If you want to go back to the "bottom" directory, type ```cd``` with nothing after it
-8. If you just want to go back "down" one directory, type ``` cd ..```
-9. To make a new directory, type ```mkdir directory_name```
-10. To move a file into the directory, move down one directory using ```cd ..``` and then type:
-```
-cp copy_file directory_name/copy_file
-```
-11. To read the contents of a file without editing it, type ```cat filename```
-12. To edit a file:
-	* Type ```nano filename```
-	* Use the arrow keys to navigate the file; make changes **TODO: text files from Robin**
-	* To save and exit, type "ctrl + x" and then hit "enter"
+## The Command Line
 
-### Windows:
+Note: these instructions will say to "enter" commands. This means to type the command and then press the Enter button.
+
+Command Line "Cheatsheets"
+Mac:
+Windows: http://www1.cs.columbia.edu/~sedwards/classes/2015/1102-fall/Command%20Prompt%20Cheatsheet.pdf
+
+### Mac Command Line
+
+1. Open the command line interface (CLI)
+  * Use Launchpad, or open a Finder window and choose "Applications," then locate the program called "Terminal" (you should find it under "Utilities")
+
+2. The command prompt
+  * Each time you see the command prompt, it lets you know that you can give your computer instructions. Text without a command prompt is "output" (the responses from your computer).
+  * In MacOS, the command prompt will look like **TODO** 
+
+3. Find where you are (your current path) in the file system (the hierarchy of all the files on your computer)
+  * Enter ```pwd``` (for "print working directory").
+  * This will print your current directory.
+  * Enter ```ls```. This will list everything that's in your currrent directory (files and other directories).
+  
+4. Navigate to the workshop folder (if you saved it on yoru Desktop)
+  * Type "cd Desktop" to change the current directory to the Desktop. Your file path and command prompt will update to **TODO**
+  * View a list of directories on your desktop by entering "ls" again.
+  * Continue to the workshop sample files directory by entering "cd gr4ww"
+  
+  Navigation Tips:
+  * If you don't want to type the whole name of a directory, type a few characters and press the Tab button to autocomplete a unique file name.
+  * To move up several directories, type ```cd Desktop/your_folder_name```
+  * If your directory or file name has spaces in it, you will get an error if you include the space as-is. 
+    * You can "escape" the space (tell the computer to ignore it) by adding a backslash in front of the space: ```cd Desktop/Your\ Folder/```. 
+	* Alternatively, you can enclose the folder name in double quotes: ```cd Desktop/"Your Folder"/```
+  * To re-use a command you just typed, hit the up arrow to cycle back through previously typed commands. 
+  * To auto-complete a directory or filename, hit Tab after you've typed part of the name.
+  * To go back to the "top" or left-most directory in the path, type ```cd``` with nothing after it
+  * To go back "up" one directory, type ``` cd ..```
+  
+5. Create a new directory
+  * In the gr4ww directory, enter ```mkdir letters```.
+  * Check for your directory by entering ```ls```.
+
+6. Move files to your new directory
+  * Change to the excerpts directory by typing ```cd excerpts```
+  * Move the first letter file into the letters directory by entering ```mv letter01.txt ..\letters\```
+    * The backslash at the end of "letters" tells the computer that you are moving the file into a sub-directory.
+    * The two periods direct the computer to move up one directory before looking for the directory you specify.
+    * You can also copy a file instead of moving it. Enter "cp letter02.txt ..\letters\"
+
+7. Rename a file
+  * There's an underscore in the "letter_03.txt" file name, which isn't consistent with the other files. Let's rename it!
+  * In the excerpts directory, enter 
+
+8. Read a file in the command line
+  * In the excerpts directory, enter ```cat letter06.txt```
+  * The text of the letter will display as output on the command line and your prompt will return.
+
+9. Open a file in a text editor from the command line
+  * Type ```nano letter06.txt```
+  * Use the arrow keys to navigate the file; make changes **TODO: text files from Robin**
+  * To save and exit, type "ctrl + x" and then hit "enter"
+
+### Windows Command Line
+
+1. Open the command line interface (CLI)
+  * Click the Start Button. 
+  * In the search box, enter ```cmd```
+
+2. The command prompt
+  * Each time you see the command prompt, it lets you know that you can give your computer instructions. Text without a command prompt is "output" (the responses from your computer).
+  * In Windows, the command prompt will look like "C:\Users\Elizabeth>" (where "Elizabeth" is your Windows user name). The command prompt is what is considered your "home directory" followed by >. 
+
+3. Find where you are (your current path) in the file system (the hierarchy of all the files on your computer)
+  * Enter ```dir```.
+  * This will print a list of all the files and sub-directories in your current folder.
+
+4. Navigate through folders (directories)
+  * Type "cd Desktop" to change the current directory to the Desktop. Your file path and command prompt will update to "C:\Users\Username\Desktop."
+  * View a list of directories on your desktop by entering "dir" again.
+  * Continue to the workshop sample files directory by entering "cd gr4ww"
+  * If you don't want to type the whole name of a directory, type a few characters and press the Tab button to autocomplete a unique file name.
+
+5. Create a new directory
+  * In the gr4ww directory, enter "mkdir letters".
+  * Check for your directory by typing "dir".
+
+6. Move files to your new directory
+  * Change to the excerpts directory by typing "cd excerpts"
+  * Move the first letter file into the letters directory by entering "move letter01.txt ..\letters\"
+    * The backslash at the end of "letters" tells the computer that you are moving the file into a sub-directory.
+    * The two periods direct the computer to move up one directory before looking for the directory you specify.
+    * You can also copy a file instead of moving it. Enter "copy letter02.txt ..\letters\"
+
+7. Rename a file
+  * There's an underscore in the "letter_03.txt" file name, which isn't consistent with the other files. Let's rename it!
+  * In the excerpts directory, enter "ren letter_03.txt letter03.txt"
+
+8. Read a file in the command line
+  * In the excerpts directory, enter "type letter06.txt"
+  * The text of the letter will display as output on the command line and your prompt will return.
+
+9. Open a file in a text editor from the command line
+  * To open a text file in your default text editor, enter only the file name: "letter06.txt"
 
 ## Installing a Programming Language: Python 3.5.1
 ### Everbody:
