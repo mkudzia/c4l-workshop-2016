@@ -131,39 +131,40 @@ Windows: http://www1.cs.columbia.edu/~sedwards/classes/2015/1102-fall/Command%20
 
 2. The command prompt
   * Each time you see the command prompt, it lets you know that you can give your computer instructions. Text without a command prompt is "output" (the responses from your computer).
-  * In Windows, the command prompt will look like "C:\Users\Elizabeth>" (where "Elizabeth" is your Windows user name). The command prompt is what is considered your "home directory" followed by >. 
+  * In Windows, the initial command prompt will look like "C:\Users\Elizabeth>" (where "Elizabeth" is your Windows user name). When you open the command line interface, you will start in your "home directory." 
 
 3. Find where you are (your current path) in the file system (the hierarchy of all the files on your computer)
-  * Enter ```dir```.
-  * This will print a list of all the files and sub-directories in your current folder.
+  * Enter ```echo %cd%```.
+  * This will print the path of your current directory.
+  * Enter ```dir```. This will list everything that's in your currrent directory (files and other directories).
 
 4. Navigate through folders (directories)
-  * Type "cd Desktop" to change the current directory to the Desktop. Your file path and command prompt will update to "C:\Users\Username\Desktop."
-  * View a list of directories on your desktop by entering "dir" again.
-  * Continue to the workshop sample files directory by entering "cd gr4ww"
-  * If you don't want to type the whole name of a directory, type a few characters and press the Tab button to autocomplete a unique file name.
+  * Enter ```cd Desktop``` to change the current directory to the Desktop. Your file path and command prompt will update to "C:\Users\Username\Desktop."
+  * View a list of directories on your desktop by entering ```dir``` again.
+  * Continue to the workshop sample files directory by entering ```cd gr4ww```
+  * If you don't want to type the whole name of a directory, type a few characters and press the ```Tab``` button to autocomplete a unique file name.
 
 5. Create a new directory
-  * In the gr4ww directory, enter "mkdir letters".
-  * Check for your directory by typing "dir".
+  * In the gr4ww directory, enter ```mkdir letters```.
+  * Check for your directory by typing ```dir```.
 
 6. Move files to your new directory
-  * Change to the excerpts directory by typing "cd excerpts"
-  * Move the first letter file into the letters directory by entering "move letter01.txt ..\letters\"
+  * Change to the excerpts directory by entering ```cd excerpts```
+  * Move the first letter file into the letters directory by entering ```move letter01.txt ..\letters\```
     * The backslash at the end of "letters" tells the computer that you are moving the file into a sub-directory.
     * The two periods direct the computer to move up one directory before looking for the directory you specify.
-    * You can also copy a file instead of moving it. Enter "copy letter02.txt ..\letters\"
+    * You can also copy a file instead of moving it. Enter ```copy letter02.txt ..\letters\```
 
 7. Rename a file
   * There's an underscore in the "letter_03.txt" file name, which isn't consistent with the other files. Let's rename it!
-  * In the excerpts directory, enter "ren letter_03.txt letter03.txt"
+  * In the excerpts directory, enter ```ren letter_03.txt letter03.txt```
 
 8. Read a file in the command line
-  * In the excerpts directory, enter "type letter06.txt"
+  * In the excerpts directory, enter ```type letter06.txt```
   * The text of the letter will display as output on the command line and your prompt will return.
 
 9. Open a file in a text editor from the command line
-  * To open a text file in your default text editor, enter only the file name: "letter06.txt"
+  * To open a text file in your default text editor, enter only the file name: ```letter06.txt```
 
 ## Installing a Programming Language: Python 3.5.1
 ### Everbody:
