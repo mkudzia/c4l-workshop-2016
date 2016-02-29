@@ -15,7 +15,6 @@ We’ll be using an fictional example throughout the workshop; for our purposes,
 * What are we all doing here?
 
 ## Pre-installation checks
-
 1. Is my operating system 32-bit or 64-bit? 
 ### Windows 7:
 	1. Open System by clicking the Start button, right-clicking "Computer," and then clicking "Properties"
@@ -24,25 +23,19 @@ We’ll be using an fictional example throughout the workshop; for our purposes,
 	1. Click on the Apple logo in the top menu and open "About this Mac"
 	2. Click "System Report" or "More Info"
 	3. In the "Hardware Overview" section you should see a processor listed -- unless you have an Intel Core Solo or an Intel Core Duo, you have a 64-bit OS.
-
-**TODO: Megan make sure Mac instructions come first for each section, then Windows**
 	
-## Text Editors:
-
-### Install Sublime Text (as opposed to TextEdit or Notepad):
-
+[Section 1](##Text Editors: Install Sublime Text):
+#### Everybody:
 1. Open a web browser and go to [https://www.sublimetext.com](https://www.sublimetext.com)
 2. Scroll down to the button that says "Download for (your operating system)". Make sure you're installing version 3 of Sublime Text. If you don't see a button, click the "Download" link at the top of the page.
 
 #### Mac OS
-
 1. Click to download the Sublime Text .dmg file
 2. Double-click on the .dmg file to start installation
 3. When the Sublime Text window opens, drag the Sublime Text logo into the Applications folder
 4. After closing the window and ejecting the disk image from your desktop, go to your Applications folder and open Sublime Text 3
 
 #### Windows 7
-
 1. Click "Save file" to download the Sublime Text .exe file.
 2. Double-click on the .exe file to run it and begin the installation process.
 3. When you get to the screen "Select Destination Location" make a note of where Sublime Text 3 is being installed (e.g., ```C:\Program Files\Sublime Text 3```)
@@ -50,15 +43,12 @@ We’ll be using an fictional example throughout the workshop; for our purposes,
 5. To open, go to Start > All Programs > Sublime Text 3.
 
 ### Everybody: Open a Markdown (.md) file in your text editor
-
 1. Go to the workshop GitHub repository at [https://github.com/mkudzia/c4l-workshop-2016](https://github.com/mkudzia/c4l-workshop-2016). (Files will be available on a flash drive in case there are problems with the Internet connection at the workshop.)
 2. Click "Download ZIP" to download the files. 
 3. Unzip the files to a folder on your desktop or another location that's easy for you to find and type. We'll refer to this folder as the "workshop files directory."
 4. In the workshop files directory, right click on "outline.md" and select "Open with Sublime Text."
 
-
 ## The Command Line:
-To start working with the command line: **TODO: update based on Robin's sample directories**
 ### Mac:
 1. Use Launchpad, or open a Finder window and choose "Applications," then locate the program called "Terminal" (you should find it under "Utilities")
 2. To find out what directory you're in, type ```pwd```
@@ -101,24 +91,7 @@ cp copy_file directory_name/copy_file
 5. Advanced step: installing Ruby or JDK? **TODO: What about installing Git, nano, or pip?**
 
 ## Environment Variables:
-### Mac: Adding JDK to PATH **TODO: Megan change? Amend instructions so that JDK stuff is optional (because they may not have it), and have them just update their path for Python3***
-1. Open a Terminal window (if you want to open a new one, you can click on it in your dock and hold until a menu pops up, then choose "New Window")
-2. Type ```echo $JAVA_HOME``` to find out where the "home" directory of your JDK version is. It will probably look something like:
-
-```
-/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home
-```
-3. Copy and paste that line of text into a text editor, or write it down
-4. Type ```cat ~/.bash_profile``` to see if you already have a .bash_profile set up. 
-	* If you do, you should see what's in it
-	* If you don't, that's ok! Type ```touch ~/.bash_profile``` to create one, then type ```sudo nano ~/.bash_profile``` to edit it (you'll need to enter your computer password when prompted)
-5. To add that location to your PATH, type this into your bash profile:
-
-```
-export JAVA_HOME="$(/usr/libexec/java_home -v 1.8)"
-```
-NOTE: the number after the -v should match the number after jdk that you copied and pasted from the previous command
-### Mac bonus: Updating your PATH to include Python 3.5
+### Mac: Updating your PATH to include Python 3.5
 1. Open a Terminal window (if you want to open a new one, you can click on it in your dock and hold until a menu pops up, then choose "New Window")
 2. Assuming you have a .bash_profile from the last step, type ```sudo nano ~/.bash_profile``` 
 3. You may see something like: "export JAVA_HOME=$(/usr/libexec/java_home)" -- if so:
@@ -136,9 +109,29 @@ export PATH
 5. Exit using "ctrl-x"
 6. That's it!
 
-### Windows: Adding Sublime text to PATH
+### Mac bonus: Adding JDK to PATH (if you have JDK):
+1. Open a Terminal window (if you want to open a new one, you can click on it in your dock and hold until a menu pops up, then choose "New Window")
+2. Type ```echo $JAVA_HOME``` to find out where the "home" directory of your JDK version is. It will probably look something like:
+
+```
+/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home
+```
+3. Copy and paste that line of text into a text editor, or write it down
+4. Type ```cat ~/.bash_profile``` to see if you already have a .bash_profile set up. 
+	* If you do, you should see what's in it
+	* If you don't, that's ok! Type ```touch ~/.bash_profile``` to create one, then type ```sudo nano ~/.bash_profile``` to edit it (you'll need to enter your computer password when prompted)
+5. To add that location to your PATH, type this into your bash profile:
+
+```
+export JAVA_HOME="$(/usr/libexec/java_home -v 1.8)"
+```
+NOTE: the number after the -v should match the number after jdk that you copied and pasted from the previous command
 
 ### Windows bonus: Updating your PATH to include Python 3.5
+1.
+
+### Windows bonus: Adding Sublime text to PATH
+1.
 
 ## Running a Virtual Environment in VirtualBox:
 ### Mac
