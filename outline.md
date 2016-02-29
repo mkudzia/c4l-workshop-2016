@@ -20,9 +20,9 @@ We’ll be using an fictional example throughout the workshop; for our purposes,
 2. Click "Download ZIP" to download the files. 
 3. Unzip the files to a folder on your desktop or another location that's easy for you to find and type. You can rename the folder or keep it named "c4l-workshop-2016".
 
-## Pre-installation checks
+## Pre-installation check
+Is my operating system 32-bit or 64-bit? 
 
-1. Is my operating system 32-bit or 64-bit? 
 ### Windows 7:
 	1. Open System by clicking the Start button, right-clicking "Computer," and then clicking "Properties"
 	2. The Properties sceen will show "System type: 64-bit operating system" or "32-bit operating system."
