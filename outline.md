@@ -83,19 +83,19 @@ Command Line "Cheatsheets"
   * This will print your current directory.
   * Enter ```ls```. This will list everything that's in your currrent directory (files and other directories).
   
-4. Navigate to the workshop folder (if you saved it on yoru Desktop)
-  * Type "cd Desktop" to change the current directory to the Desktop. Your file path and command prompt will update to `megans-computer:Desktop username$`
-  * View a list of directories on your desktop by entering "ls" again.
-  * Continue to the workshop sample files directory by entering "cd gr4ww"
+4. Navigate to the workshop folder (if you saved it on your Desktop)
+  * Type `cd Desktop` to change the current directory to the Desktop. Your file path and command prompt will update to `megans-computer:Desktop username$`
+  * View a list of directories on your desktop by entering `ls` again.
+  * Continue to the workshop sample files directory by entering `cd gr4ww`
   
   Navigation Tips:
-  * If you don't want to type the whole name of a directory, type a few characters and press the Tab button to autocomplete a unique file name.
+  * If you don't want to type the whole name of a directory, type a few characters and press the `Tab` button to autocomplete a unique file name.
   * To move up several directories, type `cd Desktop/your_folder_name`
   * If your directory or file name has spaces in it, you will get an error if you include the space as-is. 
     * You can "escape" the space (tell the computer to ignore it) by adding a backslash in front of the space: `cd Desktop/Your\ Folder/`. 
 	* Alternatively, you can enclose the folder name in double quotes: `cd Desktop/"Your Folder"/`
   * To re-use a command you just typed, hit the up arrow to cycle back through previously typed commands. 
-  * To auto-complete a directory or filename, hit Tab after you've typed part of the name.
+  * To auto-complete a directory or filename, hit `Tab` after you've typed part of the name.
   * To go back to the "top" or left-most directory in the path, type `cd` with nothing after it
   * To go back "up" one directory, type `cd ..`
   
@@ -112,7 +112,7 @@ Command Line "Cheatsheets"
 
 7. Rename a file
   * There's an underscore in the "letter_03.txt" file name, which isn't consistent with the other files. Let's rename it!
-  * In the excerpts directory, enter 
+  * In the excerpts directory, enter `cp letter_03.txt letter03.txt` to copy the file contents into a new file, then enter `rm letter_03.txt` to remove the old version (there's not an exact "file rename" command)
 
 8. Read a file in the command line
   * In the excerpts directory, enter `cat letter06.txt`
@@ -120,8 +120,8 @@ Command Line "Cheatsheets"
 
 9. Open a file in a text editor from the command line
   * Type `nano letter06.txt`
-  * Use the arrow keys to navigate the file; make changes **TODO: text files from Robin**
-  * To save and exit, type "ctrl + x" and then hit "enter"
+  * Use the arrow keys to navigate the file; make changes
+  * To save and exit, type `ctrl + x` and then hit `enter`
 
 ### Windows Command Line
 
