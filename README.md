@@ -33,6 +33,22 @@ By the end of this workshop, participants will be able to:
 * Find their environment variables and edit them if necessary
 * Download a VirtualBox and get it running
 
+## Getting the workshop files on your computer
+
+1. Go to the workshop GitHub repository at [https://github.com/mkudzia/c4l-workshop-2016](https://github.com/mkudzia/c4l-workshop-2016). (Files will be available on a flash drive in case there are problems with the Internet connection at the workshop.)
+2. Click "Download ZIP" to download the files. 
+3. Unzip the files to a folder on your desktop or another location that's easy for you to find and type. You can rename the folder or keep it named "c4l-workshop-2016".
+
+## Pre-installation check
+Is my operating system 32-bit or 64-bit? 
+
+### Windows 7:
+	1. Open System by clicking the Start button, right-clicking "Computer," and then clicking "Properties"
+	2. The Properties sceen will show "System type: 64-bit operating system" or "32-bit operating system."
+### Mac OS (this should be less relevant for Mac users, but just in case):
+	1. Click on the Apple logo in the top menu and open "About this Mac"
+	2. Click "System Report" or "More Info"
+	3. In the "Hardware Overview" section you should see a processor listed -- unless you have an Intel Core Solo or an Intel Core Duo, you have a 64-bit OS.
 
 ## Links
 Please note: you need not install anything before the workshop! However, if you'd like to download installers beforehand, this may speed the workshop process and ease the strain on the wi-fi.
