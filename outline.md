@@ -150,17 +150,14 @@ Command Line "Cheatsheets"
 3. Save the .pkg (mac) or .exe (windows) file to someplace you'll be able to find it (i.e. Downloads, Desktop)
 
 ### Mac:
-4. 
-5. Verify that you've installed python: open the command line and type `python --version`
-5. Advanced step: installing pip?
+4. Verify that you've installed python: open the command line and type `python --version`
+5. If your results are anything other than Python 3.5.1, type `python3 --version`
 
 ### Windows:
 4. **TODO: Robin what are these steps?**
 5. Verify that you've installed python: open the command line and type `python --version`
-5. Advanced step: installing Ruby or JDK? **TODO: What about installing Git, nano, or pip?**
 
 ## Environment Variables:
-<<<<<<< HEAD
 ### Mac: Updating your PATH to include Python 3.5
 1. Open a Terminal window (if you want to open a new one, you can click on it in your dock and hold until a menu pops up, then choose "New Window")
 2. Type `cat ~/.bash_profile` to see if you already have a .bash_profile set up. 
