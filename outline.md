@@ -196,7 +196,7 @@ export JAVA_HOME="$(/usr/libexec/java_home -v 1.8)"
 ```
 NOTE: the number after the -v should match the number after jdk that you copied and pasted from the previous command
 
-### Windows bonus: Updating your PATH to include Python 3.5
+### Windows: Updating your PATH to include Python 3.5
 1.
 
 ### Windows bonus: Adding Sublime text to PATH
