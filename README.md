@@ -34,12 +34,13 @@ By the end of this workshop, participants will be able to:
 * Download a VirtualBox and get it running
 
 ## Getting the workshop files on your computer
-1. Go to the workshop GitHub repository at [https://github.com/mkudzia/c4l-workshop-2016](https://github.com/mkudzia/c4l-workshop-2016). (Files will be available on a flash drive in case there are problems with the Internet connection at the workshop.)
+1. Go to the top of this page and look for the "Download ZIP" button; the files will be available on a flash drive in case there are problems with the Internet connection at the workshop.
 2. Click "Download ZIP" to download the files. 
 3. Unzip the files to a folder on your desktop or another location that's easy for you to find and type. You can rename the folder or keep it named "c4l-workshop-2016".
 
 ## Pre-installation check
 Is my operating system 32-bit or 64-bit? 
+
 ### Windows 7:
 	1. Open System by clicking the Start button, right-clicking "Computer," and then clicking "Properties"
 	2. The Properties sceen will show "System type: 64-bit operating system" or "32-bit operating system."
