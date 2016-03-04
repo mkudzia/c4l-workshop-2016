@@ -1,20 +1,18 @@
-# Outline
-This workshop is designed to help you set up your laptop so that you can more easily participate in code workshops. To this end, we’re going to cover:
+# Installation Instructions
+This workshop is designed to help you set up your laptop so that you can more easily participate in code workshops. 
 
-1. Text Editors
-2. The Command Line (the basics)
+*Table of Contents*
+
+1. [Text Editors](#text-editors-install-sublime-text)
+2. [The Command Line](#the-command-line)
+  * [Mac Command Line](#mac-command-line)
 3. Programming Languages
 4. Environment Variables
 5. Virtual Environments
 
-We’ll be using an fictional example throughout the workshop; for our purposes, our example character will be Elizabeth Bennet (from Jane Austen’s Pride and Prejudice). Because we like Jane Austen, and her writings are off copyright :)
 
-## Intro:
-* Who are you?
-* Who are we?
-* What are we all doing here?
-	
-##Text Editors: Install Sublime Text:
+##Text Editors: Install Sublime Text
+
 #### Everybody:
 1. Open a web browser and go to [https://www.sublimetext.com](https://www.sublimetext.com)
 2. Scroll down to the button that says "Download for (your operating system)". Make sure you're installing version 3 of Sublime Text. If you don't see a button, click the "Download" link at the top of the page.
@@ -258,7 +256,7 @@ NOTE: the number after the -v should match the number after jdk that you copied 
 7. Leave all the options checked (create a shortcut on the desktop; create a shortcut in the quick launch bar; register file associations.) Click `Next`.
 8. The installer will warn you that installing will reset your network connection. Finish anything that shouldn't be interrupted and click `Yes`.
 9. Click `Install` to begin the installation and allow the program to make changes to your computer.
-10. When prompted "Would you like to install this device software?" click "Install." You will have to do this a few times to install the separate virtaul networking and device components.
+10. When prompted "Would you like to install this device software?" click "Install." You will have to do this a few times to install the separate virtual networking and device components.
 11. When prompted, click "Finish" and start Oracle VM VirtualBox.
 
 
