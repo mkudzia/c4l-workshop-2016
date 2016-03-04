@@ -10,8 +10,12 @@ This workshop is designed to help you set up your laptop so that you can more ea
 3. [Installing a Programming Language](#installing-a-programming-language-python-351)
 4. [Environment Variables](#environment-variables)
   * [Mac PATH: Python 3.5](#mac-updating-your-path-to-include-python-35)
-  * [Mac PATH bonus: Java Development Kit (JDK)]
-5. Virtual Environments
+  * [Mac PATH bonus: Java Development Kit (JDK)](#mac-bonus-adding-jdk-to-path)
+  * [Windows PATH: Python 3.5](#windows-confirm-that-your-path-includes-python-35)
+  * [Windows PATH bonus: Sublime Text 3](#windows-bonus-add-sublime-text-3-to-path)
+5. [Virtual Environments](#running-a-virtual-environment-in-virtualbox)
+  * [VirtualBox for Mac](#virtualbox-for-mac)
+  * [VirtualBox for Windows](#virtualbox-for-windows)
 
 
 ##Text Editors: Install Sublime Text
@@ -238,8 +242,9 @@ NOTE: the number after the -v should match the number after jdk that you copied 
 7. Click `OK` until all the Windows dialogue boxes are closed.
 8. Open the Windows command line and enter `subl` to run the text editor.
 
-## Running a Virtual Environment in VirtualBox:
-### Mac
+## Running a Virtual Environment in VirtualBox
+
+### VirtualBox for Mac
 1. Download VirtualBox -- see the following link: [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
 2. Choose the option for "VirtualBox 5.0.14 for OS X hosts" and click the link that says "amd64" to download
 3. Save the .dmg file somewhere you'll be able to find it again (Desktop, Downloads, etc.)
@@ -248,7 +253,7 @@ NOTE: the number after the -v should match the number after jdk that you copied 
 6. Follow the install wizard steps and input your password when it asks for one
 7. Close the installer window and eject the "VirtualBox" drive image you see on your desktop (you want to run the version you installed in your "Applications" folder just now)
 
-### Windows
+### VirtualBox for Windows
 
 1. Download VirtualBox -- see the following link: [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
 2. Choose the option for "VirtualBox 5.0.x for Windows hosts" and click the link that says "x86/amd64" to download
