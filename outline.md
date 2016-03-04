@@ -161,6 +161,7 @@ Command Line "Cheatsheets"
 8. Under "Advanced Options" select the following:
   * Associate files with Python (requires the py launcher)
   * Create shortcuts for installed applications
+  * Add Python to environment variables
 9. Under "Customize install location" click "Browse."
   * Under your user directory, create a new folder for Python 3.5.1. For example: C:\Users\Elizabeth\Python3. Select this folder for installation.
 10. Click "Install."
@@ -211,7 +212,7 @@ export JAVA_HOME="$(/usr/libexec/java_home -v 1.8)"
 ```
 NOTE: the number after the -v should match the number after jdk that you copied and pasted from the previous command
 
-### Windows: Check if your PATH includes Python 3.5
+### Windows: Confirm that your PATH includes Python 3.5
 
 1. Go to Start > Control Panel > System and select "Advanced System Properties".
   * You can also search for "Environment Variables".
@@ -224,7 +225,7 @@ NOTE: the number after the -v should match the number after jdk that you copied 
   * C:\Users\Elizabeth\Python3\;
 7. If you added entries, click `OK`. Otherwise click `Cancel.`
 
-### Windows bonus: Adding Sublime text to PATH
+### Windows bonus: Add Sublime Text 3 to PATH
 
 1. Go to Start > Control Panel > System and select "Advanced System Properties".
   * You can also search for "Environment Variables".
