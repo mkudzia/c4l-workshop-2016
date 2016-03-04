@@ -239,7 +239,7 @@ NOTE: the number after the -v should match the number after jdk that you copied 
 
 ## Running a Virtual Environment in VirtualBox:
 ### Mac
-1. Install VirtualBox -- see the following link: [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
+1. Download VirtualBox -- see the following link: [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
 2. Choose the option for "VirtualBox 5.0.14 for OS X hosts" and click the link that says "amd64" to download
 3. Save the .dmg file somewhere you'll be able to find it again (Desktop, Downloads, etc.)
 4. Double-click the file when it's finished downloading to start the install process
@@ -248,11 +248,19 @@ NOTE: the number after the -v should match the number after jdk that you copied 
 7. Close the installer window and eject the "VirtualBox" drive image you see on your desktop (you want to run the version you installed in your "Applications" folder just now)
 
 ### Windows
-1. Install VirtualBox -- see the following link: [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
-2. Choose the option for "VirtualBox 5.0.14 for Windows hosts" and click the link that says "x86/amd64" to download
+
+1. Download VirtualBox -- see the following link: [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
+2. Choose the option for "VirtualBox 5.0.x for Windows hosts" and click the link that says "x86/amd64" to download
 3. Save the .exe file somewhere you'll be able to find it again (Desktop, Downloads, etc.)
-4. Double-click the file when it's finished downloading to start the install process
-5. **TODO: Robin flesh out**
+4. Double-click the file when it's finished downloading to start the install process. Click "Run" to allow it to install.
+5. Click `Next` on the main install setup screen.
+6. On the custom page, don't change anything. Click `Next`.
+7. Leave all the options checked (create a shortcut on the desktop; create a shortcut in the quick launch bar; register file associations.) Click `Next`.
+8. The installer will warn you that installing will reset your network connection. Finish anything that shouldn't be interrupted and click `Yes`.
+9. Click `Install` to begin the installation and allow the program to make changes to your computer.
+10. When prompted "Would you like to install this device software?" click "Install." You will have to do this a few times to install the separate virtaul networking and device components.
+11. When prompted, click "Finish" and start Oracle VM VirtualBox.
+
 
 ## Wrap-Up:
 * You can do it! Go forth and code workshop!
