@@ -6,8 +6,11 @@ This workshop is designed to help you set up your laptop so that you can more ea
 1. [Text Editors](#text-editors-install-sublime-text)
 2. [The Command Line](#the-command-line)
   * [Mac Command Line](#mac-command-line)
-3. Programming Languages
-4. Environment Variables
+  * [Windows Command Line](#windows-command-line)
+3. [Installing a Programming Language](#installing-a-programming-language-python-351)
+4. [Environment Variables](#environment-variables)
+  * [Mac PATH: Python 3.5](#mac-updating-your-path-to-include-python-35)
+  * [Mac PATH bonus: Java Development Kit (JDK)]
 5. Virtual Environments
 
 
@@ -192,7 +195,7 @@ export PATH
 5. Exit using "ctrl-x"
 6. That's it!
 
-### Mac bonus: Adding JDK to PATH (if you have JDK):
+### Mac bonus: Adding JDK to PATH 
 1. Open a Terminal window (if you want to open a new one, you can click on it in your dock and hold until a menu pops up, then choose "New Window")
 2. Type ```echo $JAVA_HOME``` to find out where the "home" directory of your JDK version is. It will probably look something like:
 
