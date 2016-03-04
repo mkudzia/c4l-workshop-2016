@@ -154,11 +154,26 @@ Command Line "Cheatsheets"
 5. If your results are anything other than Python 3.5.1, type `python3 --version`
 
 ### Windows:
-4. **TODO: Robin what are these steps?**
-5. Verify that you've installed python: open the command line and type `python --version`
+4. Double-click on the .exe file and click Run if prompted.
+5. On the "Install Python 3.5.1" screen, uncheck "Install launcher for all users (recommended)."
+6. Click "Customize Installation - Choose location and features."
+7. Leave all the "optional features" checked.
+8. Under "Advanced Options" select the following:
+  * Associate files with Python (requires the py launcher)
+  * Create shortcuts for installed applications
+9. Under "Customize install location" click "Browse."
+  * Under your user directory, create a new folder for Python 3.5.1. For example: C:\Users\Elizabeth\Python3. Select this folder for installation.
+10. Click "Install."
+11. Once the installation has finished, open the Windows command line.
+12. Enter `python --version`. If your results are anything other than Python 3.5.1 go to the next step.
+13. On the command line, navigate to the directory where you installed Python3. 
+  * `cd Python3`
+14. Type `python --version` in this directory. 
 
-## Environment Variables:
+## Environment Variables
+
 ### Mac: Updating your PATH to include Python 3.5
+
 1. Open a Terminal window (if you want to open a new one, you can click on it in your dock and hold until a menu pops up, then choose "New Window")
 2. Type `cat ~/.bash_profile` to see if you already have a .bash_profile set up. 
   * If you do, you should see what's in it
@@ -196,11 +211,30 @@ export JAVA_HOME="$(/usr/libexec/java_home -v 1.8)"
 ```
 NOTE: the number after the -v should match the number after jdk that you copied and pasted from the previous command
 
-### Windows: Updating your PATH to include Python 3.5
-1.
+### Windows: Check if your PATH includes Python 3.5
+
+1. Go to Start > Control Panel > System and select "Advanced System Properties".
+  * You can also search for "Environment Variables".
+2. Click `Environment Variables`.
+3. There are two levels of environment variables: ones that affect only your user, and system variables. Both have a "Path" entry.
+4. Under "User variables for Elizabeth" select `Path` and click `Edit...`.
+5. Paths to different locations of installed programs appear in the "Variable value" field. Use CTRL + C to copy the text of this field and paste it in a text editor.
+6. Check in the text editor that you have the following entries:
+  * C:\Users\Elizabeth\Python3\Scripts\;
+  * C:\Users\Elizabeth\Python3\;
+7. If you added entries, click `OK`. Otherwise click `Cancel.`
 
 ### Windows bonus: Adding Sublime text to PATH
-1.
+
+1. Go to Start > Control Panel > System and select "Advanced System Properties".
+  * You can also search for "Environment Variables".
+2. Click `Environment Variables`.
+3. There are two levels of environment variables: ones that affect only your user, and system variables. Both have a "Path" entry.
+4. Under "User variables for Elizabeth" select `Path` and click `Edit...`.
+5. Go to the end of the text in the "Variable value" field and add a semicolon if one isn't present.
+6. After the semicolon, enter the path to Sublime Text 3: `C:\Program Files\Sublime Text 3`.
+7. Click `OK` until all the Windows dialogue boxes are closed.
+8. Open the Windows command line and enter `subl` to run the text editor.
 
 ## Running a Virtual Environment in VirtualBox:
 ### Mac
