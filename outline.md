@@ -39,6 +39,7 @@ This workshop is designed to help you set up your laptop so that you can more ea
 
 ### Everybody: Open a Markdown (.md) file in your text editor
 #### Mac:
+1. In the `c41-workshop-2016` workshop files directory, right click (or two-finger click; you want the "open with" menu) on "outline.md" and select "Open with Sublime Text."
 
 #### Windows:
 1. In the ```c4l-workshop-2016``` workshop files directory, right click on "outline.md" and select "Open with Sublime Text."
@@ -48,8 +49,8 @@ This workshop is designed to help you set up your laptop so that you can more ea
 Note: these instructions will say to "enter" commands. This means to type the command and then press the Enter button.
 
 Command Line "Cheatsheets"
-* Mac:
-* Windows: http://www1.cs.columbia.edu/~sedwards/classes/2015/1102-fall/Command%20Prompt%20Cheatsheet.pdf
+* Mac: [http://cli.learncodethehardway.org/bash_cheat_sheet.pdf](http://cli.learncodethehardway.org/bash_cheat_sheet.pdf)
+* Windows: [http://www1.cs.columbia.edu/~sedwards/classes/2015/1102-fall/Command%20Prompt%20Cheatsheet.pdf](http://www1.cs.columbia.edu/~sedwards/classes/2015/1102-fall/Command%20Prompt%20Cheatsheet.pdf)
 
 ### Mac Command Line
 
