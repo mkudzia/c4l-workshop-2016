@@ -140,7 +140,8 @@ Command Line "Cheatsheets"
 
 7. Rename a file
   * There's an underscore in the "letter_03.txt" file name, which isn't consistent with the other files. Let's rename it!
-  * In the excerpts directory, enter `ren letter_03.txt letter03.txt`
+  * In the excerpts directory, enter `copy letter_03.txt letter03.txt` to copy the file contents into a new file, then enter `del letter_03.txt` to remove the old version.
+  * In Windows, you can also type `ren letter_03.txt letter03.txt` to rename the file without making a copy first.
 
 8. Read a file in the command line
   * In the excerpts directory, enter `type letter06.txt`
