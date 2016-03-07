@@ -88,10 +88,10 @@ Command Line "Cheatsheets"
 
 6. Move files to your new directory
   * Change to the excerpts directory by typing `cd excerpts`
-  * Move the first letter file into the letters directory by entering `mv letter01.txt ..\letters\`
+  * Move the first letter file into the letters directory by entering `mv letter01.txt ../letters/`
     * The backslash at the end of "letters" tells the computer that you are moving the file into a sub-directory.
     * The two periods direct the computer to move up one directory before looking for the directory you specify.
-    * You can also copy a file instead of moving it. Enter `cp letter02.txt ..\letters\`
+    * You can also copy a file instead of moving it. Enter `cp letter02.txt ../letters/`
 
 7. Rename a file
   * There's an underscore in the "letter_03.txt" file name, which isn't consistent with the other files. Let's rename it!
